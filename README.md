@@ -1,11 +1,11 @@
 # wargame.kr Writeup
-Go to [wargame.kr](wargame.kr)
+Go to [wargame.kr](http://wargame.kr)
 
 Wargame 사이트인 wargame.kr의 문제를 다룬 Writeup 입니다.
 
 ***
 
-200p - already got
+200p - [already got](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/01%20already%20got.md)
 
 300p - QR CODE PUZZLE
 

@@ -1,2 +1,53 @@
-# wargame.kr
-wargame.kr writeups
+# wargame.kr Writeup
+Go to [wargame.kr](wargame.kr)
+
+Wargame 사이트인 wargame.kr의 문제를 다룬 Writeup 입니다.
+
+
+200p - already got
+
+300p - QR CODE PUZZLE
+
+450p - flee button<br/>
+450p - login filtering<br/>
+450p - WTF_CODE
+
+500p - DB is really GOOD<br/>
+500P - fly me to the moon<br/>
+500p - md5_compare<br/>
+500p - EASY_CrackMe
+
+550p - strcmp<br/>
+550p - type confusion
+
+600p - tmitter<br/>
+600p - SimpleBoard
+
+650p - web chatting<br/>
+650p - pyc decompile<br/>
+650p - img recovery<br/>
+650p - crack crack crack it
+
+700p - dmbs335<br/>
+700p - lonely guys<br/>
+700p - ip log table<br/>
+700p - php? c?<br/>
+700p - keypad CrackMe
+
+800p - QnA<br/>
+800p - jff3_magic<br/>
+800p - adm1nkyj<br/>
+800p - Crypto Crackme Basic
+
+888p - zairo
+
+900p - DLL with notepad<br/>
+900p - CustomOS<br/>
+900p - login with crypto! but..
+
+1000p - mini TBR
+
+1100p - pw crack
+
+1300p - dun worry about the vase<br/>
+1300p - counting query

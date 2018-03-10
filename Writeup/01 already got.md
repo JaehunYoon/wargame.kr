@@ -10,7 +10,7 @@
 
 Start를 누르면 본격적인 문제 풀이를 위한 페이지로 이동하게 된다.
 
-![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/01%20already%20got/02%20index$20page.PNG)
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/01%20already%20got/02%20index%20page.PNG)
 
 접속된 페이지에는 `you've already got key! :p` 라는 문구를 출력하고 있다. 문제 설명에서 보았던 HTTP 헤더를 찾아보자.
 

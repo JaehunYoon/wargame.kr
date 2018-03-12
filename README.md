@@ -7,7 +7,7 @@ Wargame 사이트인 wargame.kr의 문제를 다룬 Writeup 입니다.
 
 200p - [already got](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/01%20already%20got.md)
 
-300p - QR CODE PUZZLE
+300p - [QR CODE PUZZLE](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/02%20QR%20CODE%20PUZZLE.md)
 
 450p - flee button<br/>
 450p - login filtering<br/>

@@ -2,17 +2,17 @@
 
 ## login filtering (450p)
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/01%20Title.PNG)
 
 `login filtering` 문제의 설명을 보면 필터링을 우회하여 로그인에 성공해야 한다고 제시되어 있다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/02%20index%20page.PNG)
 
 메인 페이지에 접속하게 되면 다음과 같은 로그인 창을 볼 수 있다.
 
 로그인 폼 하단에는 `get source` 라는 문구의 링크가 존재한다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/03%20view-source.PNG)
 
 링크를 타게되면 해당 문제의 php 소스를 열람할 수 있게 된다.
 
@@ -93,7 +93,7 @@ else
 
 하지만 `id` 값이 필터링되는 값이 아닌 경우에는 `login ok`를 출력한 후 `key` 값을 얻게 되기 때문에, `id` 필터링을 우회하여 로그인에 성공해야 한다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/04%20account%20infomation.PNG)
 
 다음은 해당 문제의 php 소스의 맨 하단 부분에 주어진 계정 정보이다.
 
@@ -112,7 +112,7 @@ blueh4g / blueh4g1234ps
 
 db 내에 존재하는 계정으로 추정하고, 이를 이용하여 필터링 우회를 해보자.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/05%20filtering%20worked.PNG)
 
 `id`와 `ps`에 평범하게 `guest`를 삽입했을 경우에는 당연히도 다음과 같이 블록 당하게 된다.
 
@@ -122,19 +122,19 @@ php 내 에서는 확실하게 대소문자를 구분하기 때문에 `if` 절�
 
 하지만 query문에 삽입되는 `id` 값은 대문자가 섞여있어도 정상적으로 sql에서 검색이 가능하기 때문에, `if(isset($row['id'])` 에서 `id` 값을 찾은 것으로 간주하게 되어 정상적으로 `$key` 값을 얻게 된다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/06%20guest%20login%20ok.PNG)
 
 다음과 같이 `id` 값을 우회하여 삽입하면 `flag` 값으로 추정되는 `password` 값을 얻을 수 있다.
 
 `blueh4g` 도 위와 같이 문제를 해결할 수 있다. 얻어낸 `password` 값이 `flag` 인지 확실히 확인하기 위해서 다른 계정으로 로그인에 성공해도 같은 `password` 값을 출력하는지 확인해보자.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/07%20filtering%20worked%202.PNG)
 
 기존에 제공했던 계정 값을 전송하면 블록이 된 것을 확인할 수 있다.
 
 `if(isset($row['id'])` 를 충족했기 때문에 db 내에 존재하는 계정인 것을 알 수 있다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/04%20login%20filtering/08%20blueh4g%20login%20ok.PNG)
 
 다음과 같이 우회를 하여 전송했더니 `guest`로 로그인 했을 때와 같은 `password` 값을 출력하였다.
 

@@ -13,7 +13,7 @@ Wargame 사이트인 wargame.kr의 문제를 다룬 Writeup 입니다.
 450p - [login filtering](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/04%20login%20filtering.md)<br/>
 450p - [WTF_CODE](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/05%20WTF_CODE.md)
 
-500p - DB is really GOOD<br/>
+500p - [DB is really GOOD](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/06%20DB%20is%20really%20GOOD.md)<br/>
 500P - fly me to the moon<br/>
 500p - md5_compare<br/>
 500p - EASY_CrackMe

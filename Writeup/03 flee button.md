@@ -58,4 +58,3 @@ onclick="window.location='?key=d39f';"
 
 다음과 같이 플래그를 볼 수 있는 페이지로 이동하게 되었다.
 
-**FLAG : 308a749208eaa785ec7b82a85e0213093e5bca70**

@@ -131,5 +131,3 @@ if ($chk){
 ![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/08%20md5_compare/05%20flag.PNG)
 
 `Magic Hash`를 이용한 `md5` 비교 우회에 성공하여 `FLAG`를 획득하였다.
-
-**FLAG : 43ee903041bef8224c635e385aa0acb8bc31804b**

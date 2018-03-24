@@ -31,5 +31,3 @@
 컴파일이 완료된 모습이다. 하단으로 내려가면, 결과값을 볼 수 있다.
 
 ![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/05%20WTF_CODE/07%20flag.PNG)
-
-**FLAG : 833fd622e59b30f40026121158f958750cb62dd4**

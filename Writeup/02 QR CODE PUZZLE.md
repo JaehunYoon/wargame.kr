@@ -60,4 +60,3 @@ PC에서 QR CODE를 인식하기 위해서, `http://www.onlinebarcodereader.com/
 
 ![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/02%20QR%20CODE%20PUZZLE/11%20other%20solution.PNG)
 
-**FLAG : 082d1ef7e140b5a4dd8a22465c9f6e5027ac77b0**

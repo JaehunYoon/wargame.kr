@@ -73,5 +73,3 @@
 ![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/06%20DB%20is%20really%20GOOD/17%20flag.PNG)
 
 플래그 값을 획득하여 문제 풀이에 성공했다.
-
-**FLAG : 1ff61a3b5d6648fd6849b8a2977ad99f9dcc895d**

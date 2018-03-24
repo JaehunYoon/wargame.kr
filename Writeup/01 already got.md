@@ -22,4 +22,3 @@ Start를 누르면 본격적인 문제 풀이를 위한 페이지로 이동하�
 
 문제 설명에서 말한 대로 HTTP Response header를 살펴보니 FLAG가 제시되어 있었다.
 
-**FLAG : c74b3ece3990cf1b80c8b806a3a83a168e0ad12e**

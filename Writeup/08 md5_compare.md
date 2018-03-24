@@ -2,17 +2,17 @@
 
 ## md5_compare (500p)
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/08%20md5_compare/01%20Title.PNG)
 
 문제 설명을 보면 **다른 값을 이용하여 그냥 일치시켜라** 라고 제시되어 있다.
 
 서로 다른 값으로 일치시켜야 하는 `md5_compare` 문제라고 생각하니, 예상으로는 `Magic Hash`를 이용한 문제라고 예상되었다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/08%20md5_compare/02%20index%20page.PNG)
 
 문제의 메인 페이지에 접속을 하면 2개의 `value`를 입력받는 폼이 존재하였고, `view-source`를 통해 문제의 php 소스를 열람할 수 있도록 한 링크가 있었다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/08%20md5_compare/03%20source%20code.PNG)
 
 문제의 php 코드이다.
 
@@ -115,7 +115,7 @@ if (md5($v1) != md5($v2)) {$chk = false;}
 
 `240610708`는 `md5`로 암호화 하였을 때, `0e462097431906509019562988736854` 라는 값이 나오기 때문에, 숫자만으로 구성된 문자열이면서 `Magic Hash` 우회가 가능하다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/08%20md5_compare/04%20md5_compare.PNG)
 
 `v1`과 `v2`에는 위에서 언급한 값을 대입하였다. 
 
@@ -128,7 +128,7 @@ if ($chk){
 
 문제의 서버로 `submit`을 보내면, 우회에 성공하여 다음 조건절에 만족하기 때문에 `FLAG` 값을 얻을 수 있을 것이다.
 
-![Image]()
+![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/08%20md5_compare/05%20flag.PNG)
 
 `Magic Hash`를 이용한 `md5` 비교 우회에 성공하여 `FLAG`를 획득하였다.
 

@@ -15,7 +15,7 @@ Wargame 사이트인 wargame.kr의 문제를 다룬 Writeup 입니다.
 
 500p - [DB is really GOOD](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/06%20DB%20is%20really%20GOOD.md)<br/>
 500P - fly me to the moon<br/>
-500p - md5_compare<br/>
+500p - [md5_compare](https://github.com/JaehunYoon/wargame.kr/blob/master/Writeup/08%20md5_compare.md)<br/>
 500p - EASY_CrackMe
 
 550p - strcmp<br/>

@@ -1,4 +1,4 @@
-# wargame.kr
+﻿# wargame.kr
 
 ## md5_compare (500p)
 
@@ -115,9 +115,11 @@ if (md5($v1) != md5($v2)) {$chk = false;}
 
 `240610708`는 `md5`로 암호화 하였을 때, `0e462097431906509019562988736854` 라는 값이 나오기 때문에, 숫자만으로 구성된 문자열이면서 `Magic Hash` 우회가 가능하다.
 
+모두 알파벳이거나 모두 숫자로 구성된 매직 해쉬 값 이외에도 사용 가능한 매직 해쉬 값이 많다. ex) aabg7XSs, etc..
+
 ![Image](https://github.com/JaehunYoon/wargame.kr/blob/master/Image/08%20md5_compare/04%20md5_compare.PNG)
 
-`v1`과 `v2`에는 위에서 언급한 값을 대입하였다. 
+`v1`과 `v2`에는 위에서 언급한 값을 대입하였다.
 
 ```php
 if ($chk){
